@@ -40,7 +40,7 @@ tre:
   # deploy_ui: false
 
 authentication:
-  aad_tenant_id: __CHANGE_ME__
+  aad_tenant_id: f7c49e36-971b-42c7-b244-a88eed6c0bf6
   # Setting AUTO_WORKSPACE_APP_REGISTRATION to false will:
   # create an identity with `Application.ReadWrite.OwnedBy`.
   # Setting AUTO_WORKSPACE_APP_REGISTRATION to true will:

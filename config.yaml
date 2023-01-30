@@ -1,15 +1,15 @@
 ---
 # After you have replaced all the __CHANGE_ME__ values in this file, you need to
 # run `make auth` to setup the Auth.
-tre_id: __CHANGE_ME__
-location: __CHANGE_ME__
+tre_id: raspdevtre01
+location: eastus
 management:
-  mgmt_resource_group_name: __CHANGE_ME__
-  mgmt_storage_account_name: __CHANGE_ME__
+  mgmt_resource_group_name: raspdevtremgmt
+  mgmt_storage_account_name: raspdevtrestg
   terraform_state_container_name: tfstate
-  acr_name: __CHANGE_ME__
+  acr_name: raspdevtreacr
   # Azure Resource Manager credentials used for CI/CD pipelines
-  arm_subscription_id: __CHANGE_ME__
+  arm_subscription_id: 96f889ee-3654-4f61-b369-5f93574edc37
 
   # If you want to override the currently signed in credentials
   # You would do this if running commands like `make terraform-install DIR=./templates/workspaces/base`
